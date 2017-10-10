@@ -25,7 +25,7 @@ Following bundles are available:
 libraries and applications
 
 The package could also be downloaded directly from:
-[https://registry.npmjs.org/phonetic-code-util/-/phonetic-code-util-1.0.0.tgz](https://registry.npmjs.org/phonetic-code-util/-/phonetic-code-util-1.0.0.tgz)
+[https://registry.npmjs.org/phonetic-code-util/-/phonetic-code-util-1.0.1.tgz](https://registry.npmjs.org/phonetic-code-util/-/phonetic-code-util-1.0.1.tgz)
 
 ## More information
 
@@ -62,6 +62,7 @@ npm run build
 
 * [phoneticCodeUtil](#module_phoneticCodeUtil)
     * [.consonants](#module_phoneticCodeUtil.consonants) : <code>Array.&lt;string&gt;</code>
+    * [.begadkepatConsonants](#module_phoneticCodeUtil.begadkepatConsonants) : <code>Array.&lt;string&gt;</code>
     * [.veghadhkhefathConsonants](#module_phoneticCodeUtil.veghadhkhefathConsonants) : <code>Array.&lt;string&gt;</code>
     * [.extraConsonants](#module_phoneticCodeUtil.extraConsonants) : <code>Array.&lt;string&gt;</code>
     * [.allConsonants](#module_phoneticCodeUtil.allConsonants) : <code>Array.&lt;string&gt;</code>
@@ -73,11 +74,19 @@ npm run build
     * [.isConsonant](#module_phoneticCodeUtil.isConsonant) ⇒ <code>boolean</code>
     * [.isVowel](#module_phoneticCodeUtil.isVowel) ⇒ <code>boolean</code>
     * [.removeVowels](#module_phoneticCodeUtil.removeVowels) ⇒ <code>string</code>
+    * [.isBegadkepat](#module_phoneticCodeUtil.isBegadkepat) ⇒ <code>boolean</code>
+    * [.isVeghadhkhefath](#module_phoneticCodeUtil.isVeghadhkhefath) ⇒ <code>boolean</code>
 
 <a name="module_phoneticCodeUtil.consonants"></a>
 
 ### phoneticCodeUtil.consonants : <code>Array.&lt;string&gt;</code>
 Semitic 22 base consonants
+
+**Kind**: static constant of [<code>phoneticCodeUtil</code>](#module_phoneticCodeUtil)  
+<a name="module_phoneticCodeUtil.begadkepatConsonants"></a>
+
+### phoneticCodeUtil.begadkepatConsonants : <code>Array.&lt;string&gt;</code>
+Veghadhkhefath consonants
 
 **Kind**: static constant of [<code>phoneticCodeUtil</code>](#module_phoneticCodeUtil)  
 <a name="module_phoneticCodeUtil.veghadhkhefathConsonants"></a>
@@ -163,4 +172,28 @@ Remove vowels, leaving consonantal word only.
 | Param | Type | Description |
 | --- | --- | --- |
 | word | <code>string</code> | input word to be processed |
+
+<a name="module_phoneticCodeUtil.isBegadkepat"></a>
+
+### phoneticCodeUtil.isBegadkepat ⇒ <code>boolean</code>
+Returns true if c is a begadkepat consonant
+
+**Kind**: static constant of [<code>phoneticCodeUtil</code>](#module_phoneticCodeUtil)  
+**Returns**: <code>boolean</code> - true if c is a begadkepat consonant  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| c | <code>string</code> | input character |
+
+<a name="module_phoneticCodeUtil.isVeghadhkhefath"></a>
+
+### phoneticCodeUtil.isVeghadhkhefath ⇒ <code>boolean</code>
+Returns true if c is a veghadhkhefath consonant
+
+**Kind**: static constant of [<code>phoneticCodeUtil</code>](#module_phoneticCodeUtil)  
+**Returns**: <code>boolean</code> - true if c is a veghadhkhefath consonant  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| c | <code>string</code> | input character |
 

@@ -15,6 +15,36 @@ describe('Phonetic', () => {
       test.ok(!sut.isConsonant('G'), 'G isConsonant');
       test.ok(!sut.isConsonant('u'), 'u isConsonant');
     });
+    it('Is Begadkepat Consonant', () => {
+      test.ok(sut.isBegadkepat('b'), 'b isBegadkepat');
+      test.ok(sut.isBegadkepat('g'), 'g isBegadkepat');
+      test.ok(sut.isBegadkepat('d'), 'd isBegadkepat');
+      test.ok(sut.isBegadkepat('k'), 'k isBegadkepat');
+      test.ok(sut.isBegadkepat('p'), 'p isBegadkepat');
+      test.ok(sut.isBegadkepat('t'), 't isBegadkepat');
+      test.ok(!sut.isBegadkepat('ś'), '& isBegadkepat');
+      test.ok(!sut.isBegadkepat('B'), 'B isBegadkepat');
+      test.ok(!sut.isBegadkepat('G'), 'G isBegadkepat');
+      test.ok(!sut.isBegadkepat('u'), 'u isBegadkepat');
+      test.ok(!sut.isBegadkepat('ḇ'), 'ḇ isBegadkepat');
+      test.ok(!sut.isBegadkepat('g̱'), 'g̱ isBegadkepat');
+      test.ok(!sut.isBegadkepat('ḏ'), 'ḏ isBegadkepat');
+    });
+    it('Is Veghadhkhefath Consonant', () => {
+      test.ok(sut.isVeghadhkhefath('ḇ'), 'ḇ isVeghadhkhefath');
+      test.ok(sut.isVeghadhkhefath('g̱'), 'g̱ isVeghadhkhefath');
+      test.ok(sut.isVeghadhkhefath('ḏ'), 'ḏ isVeghadhkhefath');
+      test.ok(sut.isVeghadhkhefath('ḵ'), 'ḵ isVeghadhkhefath');
+      test.ok(sut.isVeghadhkhefath('p̱'), 'p̱ isVeghadhkhefath');
+      test.ok(sut.isVeghadhkhefath('ṯ'), 'ṯ isVeghadhkhefath');
+      test.ok(!sut.isVeghadhkhefath('ś'), '& isVeghadhkhefath');
+      test.ok(!sut.isVeghadhkhefath('B'), 'B isVeghadhkhefath');
+      test.ok(!sut.isVeghadhkhefath('G'), 'G isVeghadhkhefath');
+      test.ok(!sut.isVeghadhkhefath('u'), 'u isVeghadhkhefath');
+      test.ok(!sut.isVeghadhkhefath('d'), 'd isVeghadhkhefath');
+      test.ok(!sut.isVeghadhkhefath('k'), 'k isVeghadhkhefath');
+      test.ok(!sut.isVeghadhkhefath('p'), 'p isVeghadhkhefath');
+    });
     it('Is Phonetic vowel', () => {
       test.ok(sut.isVowel('a'), 'a isVowel');
       test.ok(sut.isVowel('o'), 'o isVowel');
