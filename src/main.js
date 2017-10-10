@@ -65,8 +65,24 @@ export const veghadhkhefathConsonants = [
   'ḏ', // Dhālath - Voiced dental fricative
   'ḵ', // Khāph - Voiceless velar fricative
   'p̱', // Fē - voiceless labiodental fricative
-  'ṯ' // // Thaw - Voiceless dental fricative
+  'ṯ' // Thaw - Voiceless dental fricative
 ];
+
+/**
+ * Begadkepat to veghadhkhefath map
+ * @const
+ * @type { Object.<string, string> }
+ */
+export const begadkepatMap = Object.freeze(
+  Object.create(null, {
+    b: { value: 'ḇ', enumerable: true },
+    g: { value: 'g̱', enumerable: true },
+    d: { value: 'ḏ', enumerable: true },
+    k: { value: 'ḵ', enumerable: true },
+    p: { value: 'p̱', enumerable: true },
+    t: { value: 'ṯ', enumerable: true }
+  })
+);
 
 /**
  * Other semitic consonants

@@ -25,7 +25,7 @@ Following bundles are available:
 libraries and applications
 
 The package could also be downloaded directly from:
-[https://registry.npmjs.org/phonetic-code-util/-/phonetic-code-util-1.0.1.tgz](https://registry.npmjs.org/phonetic-code-util/-/phonetic-code-util-1.0.1.tgz)
+[https://registry.npmjs.org/phonetic-code-util/-/phonetic-code-util-1.0.2.tgz](https://registry.npmjs.org/phonetic-code-util/-/phonetic-code-util-1.0.2.tgz)
 
 ## More information
 
@@ -64,6 +64,7 @@ npm run build
     * [.consonants](#module_phoneticCodeUtil.consonants) : <code>Array.&lt;string&gt;</code>
     * [.begadkepatConsonants](#module_phoneticCodeUtil.begadkepatConsonants) : <code>Array.&lt;string&gt;</code>
     * [.veghadhkhefathConsonants](#module_phoneticCodeUtil.veghadhkhefathConsonants) : <code>Array.&lt;string&gt;</code>
+    * [.begadkepatMap](#module_phoneticCodeUtil.begadkepatMap) : <code>Object.&lt;string, string&gt;</code>
     * [.extraConsonants](#module_phoneticCodeUtil.extraConsonants) : <code>Array.&lt;string&gt;</code>
     * [.allConsonants](#module_phoneticCodeUtil.allConsonants) : <code>Array.&lt;string&gt;</code>
     * [.commonVowels](#module_phoneticCodeUtil.commonVowels) : <code>Array.&lt;string&gt;</code>
@@ -93,6 +94,12 @@ Begadkepat consonants
 
 ### phoneticCodeUtil.veghadhkhefathConsonants : <code>Array.&lt;string&gt;</code>
 Veghadhkhefath consonants
+
+**Kind**: static constant of [<code>phoneticCodeUtil</code>](#module_phoneticCodeUtil)  
+<a name="module_phoneticCodeUtil.begadkepatMap"></a>
+
+### phoneticCodeUtil.begadkepatMap : <code>Object.&lt;string, string&gt;</code>
+Begadkepat to veghadhkhefath map
 
 **Kind**: static constant of [<code>phoneticCodeUtil</code>](#module_phoneticCodeUtil)  
 <a name="module_phoneticCodeUtil.extraConsonants"></a>
