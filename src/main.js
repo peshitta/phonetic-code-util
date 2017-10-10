@@ -41,7 +41,7 @@ export const consonants = Object.freeze([
 ]);
 
 /**
- * Veghadhkhefath consonants
+ * Begadkepat consonants
  * @constant
  * @type { string[] }
  */

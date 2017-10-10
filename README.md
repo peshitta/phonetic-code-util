@@ -8,7 +8,7 @@
 [![devDependencies Status](https://david-dm.org/peshitta/phonetic-code-util/dev-status.svg)](https://david-dm.org/peshitta/phonetic-code-util?type=dev)
 [![Coverage Status](https://coveralls.io/repos/github/peshitta/phonetic-code-util/badge.svg?branch=master)](https://coveralls.io/github/peshitta/phonetic-code-util?branch=master)
 
-Semitic phonetic transliteration utilities
+Semitic Latin phonetic transliteration utilities
 
 ## Installation
 
@@ -86,7 +86,7 @@ Semitic 22 base consonants
 <a name="module_phoneticCodeUtil.begadkepatConsonants"></a>
 
 ### phoneticCodeUtil.begadkepatConsonants : <code>Array.&lt;string&gt;</code>
-Veghadhkhefath consonants
+Begadkepat consonants
 
 **Kind**: static constant of [<code>phoneticCodeUtil</code>](#module_phoneticCodeUtil)  
 <a name="module_phoneticCodeUtil.veghadhkhefathConsonants"></a>
