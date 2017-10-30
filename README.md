@@ -25,7 +25,7 @@ Following bundles are available:
 libraries and applications
 
 The package could also be downloaded directly from:
-[https://registry.npmjs.org/phonetic-code-util/-/phonetic-code-util-1.0.2.tgz](https://registry.npmjs.org/phonetic-code-util/-/phonetic-code-util-1.0.2.tgz)
+[https://registry.npmjs.org/phonetic-code-util/-/phonetic-code-util-1.0.3.tgz](https://registry.npmjs.org/phonetic-code-util/-/phonetic-code-util-1.0.3.tgz)
 
 ## More information
 
@@ -74,6 +74,7 @@ npm run build
     * [.silent](#module_phoneticCodeUtil.silent) : <code>string</code>
     * [.isConsonant](#module_phoneticCodeUtil.isConsonant) ⇒ <code>boolean</code>
     * [.isVowel](#module_phoneticCodeUtil.isVowel) ⇒ <code>boolean</code>
+    * [.isDotted](#module_phoneticCodeUtil.isDotted) ⇒ <code>boolean</code>
     * [.removeVowels](#module_phoneticCodeUtil.removeVowels) ⇒ <code>string</code>
     * [.isBegadkepat](#module_phoneticCodeUtil.isBegadkepat) ⇒ <code>boolean</code>
     * [.isVeghadhkhefath](#module_phoneticCodeUtil.isVeghadhkhefath) ⇒ <code>boolean</code>
@@ -167,6 +168,18 @@ Is character c a semitic vowel
 | Param | Type | Description |
 | --- | --- | --- |
 | c | <code>string</code> | input character |
+
+<a name="module_phoneticCodeUtil.isDotted"></a>
+
+### phoneticCodeUtil.isDotted ⇒ <code>boolean</code>
+Return true if input word has vowels
+
+**Kind**: static constant of [<code>phoneticCodeUtil</code>](#module_phoneticCodeUtil)  
+**Returns**: <code>boolean</code> - true if word has vowels  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| word | <code>string</code> | input word |
 
 <a name="module_phoneticCodeUtil.removeVowels"></a>
 
