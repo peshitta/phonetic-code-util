@@ -25,7 +25,7 @@ Following bundles are available:
 libraries and applications
 
 The package could also be downloaded directly from:
-[https://registry.npmjs.org/phonetic-code-util/-/phonetic-code-util-1.0.3.tgz](https://registry.npmjs.org/phonetic-code-util/-/phonetic-code-util-1.0.3.tgz)
+[https://registry.npmjs.org/phonetic-code-util/-/phonetic-code-util-1.0.4.tgz](https://registry.npmjs.org/phonetic-code-util/-/phonetic-code-util-1.0.4.tgz)
 
 ## More information
 
@@ -61,12 +61,14 @@ npm run build
 ## API Reference
 
 * [phoneticCodeUtil](#module_phoneticCodeUtil)
+    * [.consonantsByName](#module_phoneticCodeUtil.consonantsByName) : <code>Object.&lt;string, string&gt;</code>
     * [.consonants](#module_phoneticCodeUtil.consonants) : <code>Array.&lt;string&gt;</code>
     * [.begadkepatConsonants](#module_phoneticCodeUtil.begadkepatConsonants) : <code>Array.&lt;string&gt;</code>
     * [.veghadhkhefathConsonants](#module_phoneticCodeUtil.veghadhkhefathConsonants) : <code>Array.&lt;string&gt;</code>
     * [.begadkepatMap](#module_phoneticCodeUtil.begadkepatMap) : <code>Object.&lt;string, string&gt;</code>
     * [.extraConsonants](#module_phoneticCodeUtil.extraConsonants) : <code>Array.&lt;string&gt;</code>
     * [.allConsonants](#module_phoneticCodeUtil.allConsonants) : <code>Array.&lt;string&gt;</code>
+    * [.vowelsByName](#module_phoneticCodeUtil.vowelsByName) : <code>Object.&lt;string, string&gt;</code>
     * [.commonVowels](#module_phoneticCodeUtil.commonVowels) : <code>Array.&lt;string&gt;</code>
     * [.easternVowels](#module_phoneticCodeUtil.easternVowels) : <code>Array.&lt;string&gt;</code>
     * [.otherVowels](#module_phoneticCodeUtil.otherVowels) : <code>Array.&lt;string&gt;</code>
@@ -79,6 +81,12 @@ npm run build
     * [.isBegadkepat](#module_phoneticCodeUtil.isBegadkepat) ⇒ <code>boolean</code>
     * [.isVeghadhkhefath](#module_phoneticCodeUtil.isVeghadhkhefath) ⇒ <code>boolean</code>
 
+<a name="module_phoneticCodeUtil.consonantsByName"></a>
+
+### phoneticCodeUtil.consonantsByName : <code>Object.&lt;string, string&gt;</code>
+Phonetic latin consonant name to value map
+
+**Kind**: static constant of [<code>phoneticCodeUtil</code>](#module_phoneticCodeUtil)  
 <a name="module_phoneticCodeUtil.consonants"></a>
 
 ### phoneticCodeUtil.consonants : <code>Array.&lt;string&gt;</code>
@@ -113,6 +121,12 @@ Other semitic consonants
 
 ### phoneticCodeUtil.allConsonants : <code>Array.&lt;string&gt;</code>
 All consonants concatenated
+
+**Kind**: static constant of [<code>phoneticCodeUtil</code>](#module_phoneticCodeUtil)  
+<a name="module_phoneticCodeUtil.vowelsByName"></a>
+
+### phoneticCodeUtil.vowelsByName : <code>Object.&lt;string, string&gt;</code>
+Phonetic latin vowel name to value map
 
 **Kind**: static constant of [<code>phoneticCodeUtil</code>](#module_phoneticCodeUtil)  
 <a name="module_phoneticCodeUtil.commonVowels"></a>

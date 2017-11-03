@@ -1,6 +1,6 @@
 {
   "name": "phonetic-code-util",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Semitic phonetic transliteration utilities",
   "main": "build/phonetic-code-util.js",
   "mainMin": "build/phonetic-code-util.min.js",
